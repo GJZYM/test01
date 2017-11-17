@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.springframework.org/schema/beans"
+     xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <bean id="typet" class="cn.guan.deal.TypeTravel">
+    <property name="message" value="WELCOME!"/>
+    <property name="called" value="游客"/>
+    </bean>
+    
+    <bean id="typev" class="cn.guan.deal.TypeVip">
+    <property name="message" value="WELCOME!"/>
+    <property name="suspect" value="尊敬的"/>
+    <property name="called" value="VIP用户"/>
+    </bean>
+    
+    <bean id="loginservice" class="cn.guan.deal.LoginService"></bean>
+</beans>
